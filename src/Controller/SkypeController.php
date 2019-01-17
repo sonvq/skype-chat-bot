@@ -18,12 +18,12 @@ class SkypeController
     /**
      * @var string
      */
-    private $botName = 'ads management wiki';
+    private $botName = 'ads management wiki ';
 
     /**
      * @var string
      */
-    private $botSecondName = 'standup meeting';
+    private $botSecondName = 'standup meeting ';
 
     /**
      * @var LoggerInterface
