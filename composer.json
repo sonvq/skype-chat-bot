@@ -21,7 +21,6 @@
     "slim/slim": "^3.1",
     "slim/php-view": "^2.0",
     "monolog/monolog": "^1.17",
-    "illuminate/database": "~5.1",
     "guzzlehttp/guzzle": "^6.3"
   },
   "require-dev": {
