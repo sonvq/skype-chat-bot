@@ -215,32 +215,32 @@ class SkypeController
         if (in_array($text, ['build', 'deploy'])) {
             $textOutput = '
 (stareyes) Below are deploy commands (stareyes)
-* **1 - Merge branch into master (please change to your branch)**
+**1 - Merge branch into master (please change to your branch)**
 git merge --squash origin/feature/543884-addPredisLibrary
 *
-* **2 - Commit and push code**
+**2 - Commit and push code**
 *
-* **3 - Describe the latest tag**
+**3 - Describe the latest tag**
     git describe --tags --abbrev=0  
 *
-* **4 - Create new tag**
+**4 - Create new tag**
     git tag 0.0.10 
 *
-* **5 - Push the tag**
+**5 - Push the tag**
     git push --tags
 *
-* **6 - Modify the changelog**
+**6 - Modify the changelog**
     gbp dch --debian-tag="%(version)s" -S  --git-author -N "$(git describe --tags --abbrev=0)" 
 *
-* **7 - Commit and push the changelog**
+**7 - Commit and push the changelog**
     git commit -am "updated changelog"
     git push
 *    
-* **8 - Deploy in teamcity** 
+**8 - Deploy in teamcity** 
     Visit http://qc-teamcity.coccoc.com/overview.html
     Deploy on Staging => Run
 *
-* **9 - Login and check the build**
+**9 - Login and check the build**
     ssh ads2v.dev.itim.vn
     dpkg -l | grep qc-user
     tail -f /var/log/apt/history.log
@@ -251,21 +251,21 @@ git merge --squash origin/feature/543884-addPredisLibrary
         if (in_array($text, ['holiday', 'lịch nghỉ'])) {
             $textOutput = '
 (party) CÁC NGÀY LỄ ĐƯỢC NGHỈ NĂM 2019 (party)
-* **1 - Tết dương lịch (01/01):**
+**1 - Tết dương lịch (01/01):**
     nghỉ 04 ngày (29/12/2018-01/01/2019); 
     làm bù 01 ngày thứ bảy (05/01/2019)
 *
-* **2 - Tết Nguyên đán (02/02-10/02/2019):**
+**2 - Tết Nguyên đán (02/02-10/02/2019):**
     nghỉ 09 ngày
 *
-* **3 - Giỗ Tổ Hùng Vương:**
+**3 - Giỗ Tổ Hùng Vương:**
     nghỉ 03 ngày (13-15/04/2019)
 *
-* **4 - Ngày lễ chiến thắng và Quốc tế lao động (30/4 – 01/5):** 
+**4 - Ngày lễ chiến thắng và Quốc tế lao động (30/4 – 01/5):** 
     nghỉ 05 ngày (27/04-01/05/2019); 
     làm bù 01 ngày thứ bảy (04/05/2019)
 *
-* **5 - Ngày Quốc khánh (02/09)**
+**5 - Ngày Quốc khánh (02/09)**
     nghỉ 03 ngày (31/08-01/09/2019)
 ';
         }
