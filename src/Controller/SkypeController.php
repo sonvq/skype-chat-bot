@@ -164,10 +164,11 @@ class SkypeController
     protected function createTextOutput($text)
     {
         // DEFAULT TEXT
-        $textOutput = '(hysterical) Sorry, this is not a valid command, below are all available commands (hysterical)
+        $textOutput = '
+(hysterical) Sorry, this is not a valid command, below are all available commands (hysterical)
 **help**
 **build**
-**holiday**  
+**holiday**
 **link**
 **wifi**
 ';
@@ -188,12 +189,11 @@ class SkypeController
         if (in_array($text, ['wifi'])) {
             $textOutput = '
 (idea) Below are password for CC wifi (idea)
-* **1 - wifi coccoc.vn-2-guest**    
+**1 - wifi coccoc.vn-2-guest**    
     guesttest123
 *
-* **2 - wifi coccoc.vn-2**    
+**2 - wifi coccoc.vn-2**    
     uBq%D*Ei
-*
 ';
         }
 
