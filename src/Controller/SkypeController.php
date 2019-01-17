@@ -189,10 +189,10 @@ class SkypeController
         if (in_array($text, ['wifi'])) {
             $textOutput = '
 (idea) Below are password for CC wifi (idea)
-**1 - wifi coccoc.vn-2-guest**    
+**1 - wifi coccoc.vn-2-guest**
     guesttest123
-*
-**2 - wifi coccoc.vn-2**    
+
+**2 - wifi coccoc.vn-2**
     uBq%D*Ei
 ';
         }
