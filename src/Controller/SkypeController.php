@@ -202,17 +202,11 @@ class SkypeController
             $textOutput = '
 (rainbowsmile) Below are all useful links for QC (rainbowsmile)
 * **1 - [Staff tool](https://stafftool.coccoc.com/user/login)**    
-*
 * **2 - [Staging QC](http://staging-1-qc.coccoc.com/)**    
-*
 * **3 - [Jira](https://coccoc.atlassian.net/secure/Dashboard.jspa)**    
-*
 * **4 - [Ads-data-management service API Doc Liam](https://docs.google.com/document/d/1bIq8qquqaMubuCLru21d9I9GhmY_ewaxl1yogOcBHoI/edit#)**
-*
 * **5 - [Teamcity](http://qc-teamcity.coccoc.com/agents.html)**
-*
 * **6 - [Git QC](https://git.itim.vn/users/sign_in?redirect_to_referer=yes)**
-*
 * **7 - [Trac](https://trac.coccoc.com/coccoc/)**
 ';
         }
