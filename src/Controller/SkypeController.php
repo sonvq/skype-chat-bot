@@ -166,13 +166,9 @@ class SkypeController
         // DEFAULT TEXT
         $textOutput = '(hysterical) Sorry, this is not a valid command, below are all available commands (hysterical)
 * **help**
-*
 * **build**
-*
 * **holiday**  
-*
 * **link**
-*
 * **wifi**
 ';
 
@@ -181,13 +177,9 @@ class SkypeController
             $textOutput = '
 (hearteyes) Below are all available commands (hearteyes)
 * **help**
-*
 * **build**
-*
 * **holiday**
-*
 * **link**
-*
 * **wifi**
 ';
         }
