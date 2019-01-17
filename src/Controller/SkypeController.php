@@ -201,13 +201,13 @@ class SkypeController
         if (in_array($text, ['link'])) {
             $textOutput = '
 (rainbowsmile) Below are all useful links for QC (rainbowsmile)
-* **1 - [Staff tool](https://stafftool.coccoc.com/user/login)**    
-* **2 - [Staging QC](http://staging-1-qc.coccoc.com/)**    
-* **3 - [Jira](https://coccoc.atlassian.net/secure/Dashboard.jspa)**    
-* **4 - [Ads-data-management service API Doc Liam](https://docs.google.com/document/d/1bIq8qquqaMubuCLru21d9I9GhmY_ewaxl1yogOcBHoI/edit#)**
-* **5 - [Teamcity](http://qc-teamcity.coccoc.com/agents.html)**
-* **6 - [Git QC](https://git.itim.vn/users/sign_in?redirect_to_referer=yes)**
-* **7 - [Trac](https://trac.coccoc.com/coccoc/)**
+**1 - [Staff tool](https://stafftool.coccoc.com/user/login)**    
+**2 - [Staging QC](http://staging-1-qc.coccoc.com/)**    
+**3 - [Jira](https://coccoc.atlassian.net/secure/Dashboard.jspa)**    
+**4 - [Ads-data-management service API Doc Liam](https://docs.google.com/document/d/1bIq8qquqaMubuCLru21d9I9GhmY_ewaxl1yogOcBHoI/edit#)**
+**5 - [Teamcity](http://qc-teamcity.coccoc.com/agents.html)**
+**6 - [Git QC](https://git.itim.vn/users/sign_in?redirect_to_referer=yes)**
+**7 - [Trac](https://trac.coccoc.com/coccoc/)**
 ';
         }
 
@@ -216,30 +216,30 @@ class SkypeController
             $textOutput = '
 (stareyes) Below are deploy commands (stareyes)
 **1 - Merge branch into master (please change to your branch)**
-git merge --squash origin/feature/543884-addPredisLibrary
-*
+    git merge --squash origin/feature/543884-addPredisLibrary
+
 **2 - Commit and push code**
-*
+
 **3 - Describe the latest tag**
     git describe --tags --abbrev=0  
-*
+
 **4 - Create new tag**
     git tag 0.0.10 
-*
+
 **5 - Push the tag**
     git push --tags
-*
+
 **6 - Modify the changelog**
     gbp dch --debian-tag="%(version)s" -S  --git-author -N "$(git describe --tags --abbrev=0)" 
-*
+
 **7 - Commit and push the changelog**
     git commit -am "updated changelog"
     git push
-*    
+ 
 **8 - Deploy in teamcity** 
     Visit http://qc-teamcity.coccoc.com/overview.html
     Deploy on Staging => Run
-*
+
 **9 - Login and check the build**
     ssh ads2v.dev.itim.vn
     dpkg -l | grep qc-user
@@ -254,17 +254,17 @@ git merge --squash origin/feature/543884-addPredisLibrary
 **1 - Tết dương lịch (01/01):**
     nghỉ 04 ngày (29/12/2018-01/01/2019); 
     làm bù 01 ngày thứ bảy (05/01/2019)
-*
+
 **2 - Tết Nguyên đán (02/02-10/02/2019):**
     nghỉ 09 ngày
-*
+
 **3 - Giỗ Tổ Hùng Vương:**
     nghỉ 03 ngày (13-15/04/2019)
-*
+
 **4 - Ngày lễ chiến thắng và Quốc tế lao động (30/4 – 01/5):** 
     nghỉ 05 ngày (27/04-01/05/2019); 
     làm bù 01 ngày thứ bảy (04/05/2019)
-*
+
 **5 - Ngày Quốc khánh (02/09)**
     nghỉ 03 ngày (31/08-01/09/2019)
 ';
