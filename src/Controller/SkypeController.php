@@ -167,7 +167,9 @@ class SkypeController
 *
 * **build**
 *
-* **holiday**   
+* **holiday**  
+*
+* **link**
 ';
 
         // HELP
@@ -179,6 +181,48 @@ class SkypeController
 * **build**
 *
 * **holiday**
+*
+* **link**
+';
+        }
+
+        // LINK
+        if (in_array($text, ['link'])) {
+            $textOutput = '
+(rainbowsmile) Below are all useful links for QC (rainbowsmile)
+* **1 - Staff tool  [bing](http://www.bing.com)**
+    https://stafftool.coccoc.com/user/login
+*
+* **2 - Staging**
+    http://staging-1-qc.coccoc.com/
+*
+* **3 - Jira**
+    https://coccoc.atlassian.net/secure/Dashboard.jspa
+*
+* **4 - Ads-data-management service API Doc Liam**
+    https://docs.google.com/document/d/1bIq8qquqaMubuCLru21d9I9GhmY_ewaxl1yogOcBHoI/edit# 
+*
+* **4 - Create new tag**
+    git tag 0.0.10 
+*
+* **5 - Push the tag**
+    git push --tags
+*
+* **6 - Modify the changelog**
+    gbp dch --debian-tag="%(version)s" -S  --git-author -N "$(git describe --tags --abbrev=0)" 
+*
+* **7 - Commit and push the changelog**
+    git commit -am "updated changelog"
+    git push
+*    
+* **8 - Deploy in teamcity** 
+    Visit http://qc-teamcity.coccoc.com/overview.html
+    Deploy on Staging => Run
+*
+* **9 - Login and check the build**
+    ssh ads2v.dev.itim.vn
+    dpkg -l | grep qc-user
+    tail -f /var/log/apt/history.log
 ';
         }
 
