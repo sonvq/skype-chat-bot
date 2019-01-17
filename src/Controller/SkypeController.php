@@ -16,6 +16,16 @@ use Psr\Log\LoggerInterface;
 class SkypeController
 {
     /**
+     * @var string
+     */
+    private $botName = 'Ads Management Wiki';
+
+    /**
+     * @var string
+     */
+    private $botSecondName = 'Standup Meeting';
+
+    /**
      * @var LoggerInterface
      */
     private $logger;
@@ -46,7 +56,8 @@ class SkypeController
     {
         $params = $request->getParsedBody();
 
-        $text = strtolower($params['text']);
+        $text = str_replace([$this->botName, $this->botSecondName], '', strtolower($params['text']));
+
         $this->logger->info('Received a chat message: ' . print_r($params,true));
 
         $conversation = $params['conversation'];
