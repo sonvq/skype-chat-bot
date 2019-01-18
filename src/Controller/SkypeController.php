@@ -148,7 +148,7 @@ class SkypeController
         ];
 
         if (!empty($attachment)) {
-            $body['json']['attachments'] = $attachment;
+            $body['json']['attachments'][] = $attachment;
         }
 
         try {
