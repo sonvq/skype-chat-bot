@@ -225,7 +225,7 @@ class SkypeController
         }
 
         // NOPE
-        if (in_array($text, ['nope', 'early'])) {
+        if (in_array($text, ['nope', 'early', 'go early', 'i need to go early today'])) {
             $textOutput = '';
         }
 

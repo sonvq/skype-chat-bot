@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/SkypeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+            <state relative-caret-position="258">
+              <caret line="227" column="89" selection-start-line="227" selection-start-column="89" selection-end-line="227" selection-end-column="89" />
               <folding>
                 <element signature="e#34#56#0#PHP" expanded="true" />
                 <element signature="e#25180#25323#1#PHP" />
@@ -188,7 +188,7 @@
       <workItem from="1547708607924" duration="22000" />
       <workItem from="1547708647380" duration="8135000" />
       <workItem from="1547781503282" duration="956000" />
-      <workItem from="1547805287604" duration="1082000" />
+      <workItem from="1547805287604" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1547114180881</created>
@@ -456,11 +456,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547806248683</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="&#10;age">
+      <created>1547806374130</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1547806374130</updated>
+    </task>
+    <task id="LOCAL-00040" summary="&#10;age">
+      <created>1547806496266</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1547806496266</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25466000" />
+    <option name="totallyTimeSpent" value="25672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -571,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SkypeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+        <state relative-caret-position="258">
+          <caret line="227" column="89" selection-start-line="227" selection-start-column="89" selection-end-line="227" selection-end-column="89" />
           <folding>
             <element signature="e#34#56#0#PHP" expanded="true" />
             <element signature="e#25180#25323#1#PHP" />
