@@ -58,7 +58,7 @@ class SkypeController
 
         $text = str_replace([$this->botName, $this->botSecondName], '', strtolower($params['text']));
 
-        $text = preg_replace('/\s+/', '', $text);
+        $text = trim($text);
 
         $this->logger->info('Received a chat message: ' . print_r($params,true));
 
